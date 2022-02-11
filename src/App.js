@@ -15,7 +15,7 @@ function App() {
     <React.Fragment>
       <div className="container mt-5 py-5 d-flex flex-row justify-content-center">
         <div className="col-lg-7">
-          <h2>Estudiantes infecctados: <span className="text-danger font-weight-bold">{x}</span></h2>
+          <h2>Estudiantes infectados: <span className="text-danger font-weight-bold">{x}</span></h2>
           <div>
             <form>
               <div className="form-group mt-2">
