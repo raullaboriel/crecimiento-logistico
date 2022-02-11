@@ -14,8 +14,8 @@ function App() {
   return (
     <React.Fragment>
       <div className="container mt-5 py-5 d-flex flex-row justify-content-center">
-        <div className="col-lg-7">
-          <h2>Estudiantes infectados: <span className="text-danger font-weight-bold">{x}</span></h2>
+        <div style={{backgroundColor: 'whitesmoke'}} className="col-lg-7 rounded-lg p-5">
+          <h3>Estudiantes infectados: <span className="text-danger font-weight-bold">{x}</span></h3>
           <div>
             <form>
               <div className="form-group mt-2">
@@ -34,7 +34,7 @@ function App() {
         <div class="container">
           <div className="d-flex justify-content-between">
             <div>
-              <p class="small text-muted mb-0">Ecuaciones diferenciales</p>
+              <p class="small text-muted mb-0">Ecua. Diferenciales</p>
             </div>
             <div>
               <p class="small text-muted mb-0">Jose Laboriel</p>
