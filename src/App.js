@@ -15,7 +15,12 @@ function App() {
 
   return (
     <React.Fragment>
-      <div className="container mt-5 py-5 d-flex flex-column">
+      <nav className="navbar navbar-light bg-light">
+        <span className="navbar-brand">
+            Crecimiento logistico
+        </span>
+      </nav>
+      <div className="container mt-5 py-4 d-flex flex-column">
         <div className="d-flex flex-row justify-content-center mb-3">
           <div style={{ backgroundColor: 'whitesmoke' }} className="col-lg-7 rounded-lg p-5">
             <h4>Estudiantes infectados: <span className="text-danger font-weight-bold">{x}</span></h4>
@@ -25,7 +30,7 @@ function App() {
                   <input onChange={(e) => setDays(parseInt(e.target.value))} value={days} type="range" max={30} min={0} className="form-control-range bg-danger" id="formControlRange"></input>
                   <div className="mt-2">
                     <label htmlFor="formControlRange">
-                      <span className="h6">Dias transcurridos: <span className="font-weight-bold">{days}</span></span>
+                      <span className="h6">Días transcurridos: <span className="font-weight-bold">{days}</span></span>
                     </label>
                   </div>
                 </div>
@@ -46,7 +51,7 @@ function App() {
           <img src={modelo} width='250' height='auto' alt='' />
         </div>
       </div>
-      <footer className="footer mt-auto fixed-bottom py-3">
+      <footer style={{ backgroundColor: 'whitesmoke' }} className="footer rounded mt-auto fixed-bottom py-3">
         <div className="container">
           <div className="d-flex justify-content-between">
             <div>
