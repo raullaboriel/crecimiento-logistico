@@ -20,10 +20,12 @@ function App() {
             Crecimiento logistico
         </span>
       </nav>
-      <div className="container mt-5 py-4 d-flex flex-column">
+      <div className="container mt-5 py-3 d-flex flex-column">
         <div className="d-flex flex-row justify-content-center mb-3">
           <div style={{ backgroundColor: 'whitesmoke' }} className="col-lg-7 rounded-lg p-5">
-            <h4>Estudiantes infectados: <span className="text-danger font-weight-bold">{x}</span></h4>
+            <h4 className="text-nowrap">Estudiantes infectados: 
+              <span className="text-danger font-weight-bold"> {x}</span>
+            </h4>
             <div>
               <form>
                 <div className="form-group mt-2">
