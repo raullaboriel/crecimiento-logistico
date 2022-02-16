@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/crecimiento-logistico/static/css/main.8614d903.css",
-    "main.js": "/crecimiento-logistico/static/js/main.4946ddb6.js",
+    "main.js": "/crecimiento-logistico/static/js/main.fcfd35f5.js",
     "static/media/modelo.png": "/crecimiento-logistico/static/media/modelo.93a9a4ae4645f06f6e20.png",
     "index.html": "/crecimiento-logistico/index.html",
     "main.8614d903.css.map": "/crecimiento-logistico/static/css/main.8614d903.css.map",
-    "main.4946ddb6.js.map": "/crecimiento-logistico/static/js/main.4946ddb6.js.map"
+    "main.fcfd35f5.js.map": "/crecimiento-logistico/static/js/main.fcfd35f5.js.map"
   },
   "entrypoints": [
     "static/css/main.8614d903.css",
-    "static/js/main.4946ddb6.js"
+    "static/js/main.fcfd35f5.js"
   ]
 }
